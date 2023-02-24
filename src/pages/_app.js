@@ -23,7 +23,7 @@ const App = (props) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <title>
-          Taprobana Rome
+          Pharmacy Rome
         </title>
         <meta
           name="viewport"

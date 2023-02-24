@@ -8,7 +8,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Settings | Taprobana Rome
+        Settings | Pharmacy Rome
       </title>
     </Head>
     <Box

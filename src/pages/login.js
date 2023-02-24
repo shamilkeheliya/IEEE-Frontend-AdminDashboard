@@ -14,8 +14,9 @@ const Login = () => {
       .post("http://localhost:5000/api/v1/pharmacy/login", values)
       .then((res) => {
         if (res.data) {
-          console.log("succe");
+          console.log("succe",res.data.data[0].name);
           localStorage.setItem("token", res.data.token);
+          localStorage.setItem("username", res.data.data[0].name);
           toast.success("Login Successfuly", {
             position: "top-right",
             autoClose: 5000,
@@ -58,7 +59,7 @@ const Login = () => {
   return (
     <>
       <Head>
-        <title>Login | Taprobana Pharmacy</title>
+        <title>Login | Pharmacy Pharmacy</title>
       </Head>
       <Box
         component="main"

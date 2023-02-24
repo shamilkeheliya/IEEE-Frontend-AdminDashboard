@@ -74,7 +74,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Edit hotel | TaprobanaRome</title>
+        <title>Edit hotel | Pharmacy</title>
       </Head>
 
       <Box

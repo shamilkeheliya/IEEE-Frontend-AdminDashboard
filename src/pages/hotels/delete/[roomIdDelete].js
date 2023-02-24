@@ -10,7 +10,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Delete Room | TaprobanaRome</title>
+        <title>Delete Room | Pharmacy</title>
       </Head>
       <Box
         component="main"

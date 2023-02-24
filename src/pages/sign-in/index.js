@@ -79,7 +79,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Sign in | Taprobana Rome</title>
+        <title>Sign in | Pharmacy Rome</title>
       </Head>
       <Box
         component="main"

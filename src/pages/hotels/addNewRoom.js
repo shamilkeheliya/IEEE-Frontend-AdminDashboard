@@ -55,7 +55,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>New Room | TaprobanaRome</title>
+        <title>New Room | Pharmacy</title>
       </Head>
       <Box
         component="main"

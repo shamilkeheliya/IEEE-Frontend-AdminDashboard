@@ -6,7 +6,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 const Page = () => (
   <>
     <Head>
-      <title>404 | Taprobana rome</title>
+      <title>404 | Pharmacy rome</title>
     </Head>
     <Box
       component="main"

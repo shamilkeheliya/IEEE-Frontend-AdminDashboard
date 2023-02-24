@@ -5,12 +5,15 @@ import { Box, MenuItem, MenuList, Popover, Typography } from '@mui/material';
 import { AuthContext } from '../contexts/auth-context';
 import { auth, ENABLE_AUTH } from '../lib/auth';
 
+
 export const AccountPopover = (props) => {
   const { anchorEl, onClose, open, ...other } = props;
   const authContext = useContext(AuthContext);
 
   const handleSignOut = async () => {
     onClose?.();
+    localStorage.clear();
+    Router.push("/");
 
     // Check if authentication with Zalter is enabled
     // If not enabled, then redirect is not required
@@ -50,6 +53,8 @@ export const AccountPopover = (props) => {
     }
   };
 
+  const username = localStorage.getItem("username");
+
   return (
     <Popover
       anchorEl={anchorEl}
@@ -77,7 +82,7 @@ export const AccountPopover = (props) => {
           color="text.secondary"
           variant="body2"
         >
-          John Doe
+          {username}
         </Typography>
       </Box>
       <MenuList

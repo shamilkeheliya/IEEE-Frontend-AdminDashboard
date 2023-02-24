@@ -7,7 +7,7 @@ import { DashboardLayout } from "../../components/dashboard-layout";
 const Page = () => (
   <>
     <Head>
-      <title>Reviews | Taprobana Rome</title>
+      <title>Reviews | Pharmacy Rome</title>
     </Head>
     <Box
       component="main"

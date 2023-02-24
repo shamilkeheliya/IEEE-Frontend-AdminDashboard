@@ -7,7 +7,7 @@ import { HotelListToolbar } from "../../components/hotels/hotel-list-toolbar";
 const Page = () => (
   <>
     <Head>
-      <title>Hotels | Taprobana Rome</title>
+      <title>Hotels | Pharmacy Rome</title>
     </Head>
     <Box
       component="main"
